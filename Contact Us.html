@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Cronj</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="Contact">
+        <nav>
+            <a href="index.html"><img src="images/image2.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hiddenMenu()"></i>
+                <ul>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="Product.html">Products</a></li>
+                    <li><a href="Portfolio.html">Portfolio</a></li>
+                    <li><a href="Services.html">Services</a></li>
+                    <li><a href="Contact Us.html">Contact Us</a></li>
+                    
+                
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact Us</h1>
+    </section>
+
+<!------contact Us-------->
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15555.98902605653!2d77.6379868!3d12.9078976!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9c9708bf778cec7e!2sCronJ%20IT%20-%20Web%20application%20and%20Mobile%20app%20development%20company.%20React%2C%20React%20native%2C%20UI%2FUX%20design%2C%20Node%2C%20IOS%2C%20Android%2C%20Hybrid%20etc%20services.-%20Custom%20Software%20Development.!5e0!3m2!1sen!2sin!4v1644644360112!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+
+<section class="contact-us">
+
+    <div class="row">
+        <div class="contact-col">
+                <img src="images/home.png">
+                
+                    <h5>1084, 14th Main, 17th Cross,<br>HSR Layout, Sector 3</h5>
+                    <p>Bengaluru, Karnataka 560102</p>
+                
+            </div>
+            <div class="contact-col">
+                <img src="images/phone.png">
+                
+                    <h5>070937 05150</h5>
+                    <p>Bengaluru, Karnataka 560102</p>
+                
+            </div>
+            <div class="contact-col">
+                <img src="images/email.png">
+                
+                    <h5>contact@cronj.com</h5>
+                    <p>Email us your query</p>
+                
+            </div>
+
+        </div>
+    </section>
+
+        <section class="contact form">
+        
+
+            <form action="form-handler.php" method="post">
+                <div class="contact-col">
+                <input type="text" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="contact-col">
+                <input type="email" name="email" placeholder="Enter Email address" required>
+                </div>
+                <div class="contact-col">
+                <input type="text" name="subject" placeholder="Enter your subject" required>
+                </div>
+                <div class="contact-col">
+                <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                </div>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+            </form>
+            
+
+        </section>
+        
+
+
+
+<!------Footer------->
+
+<section class="footer">
+    <div class="row3">
+        <div class="header7-col">
+            <img src="images/logo.png">
+          <p3>contact@cronj.com<br>Get a Call<br>Hire a Developer</p3>
+        </div>
+        <div class="header8-col">
+            <h8>Services & Offerings</h8>
+          <p3>Web App Development<br>Mobile App Development<br>UI/UX Design<br>ReactJS Development<br>NodeJS Development<br>React Native Development<br>Android App Development<br>iOS App Development<br>Hybrid App Development</p3>
+        </div>
+        <div class="header8-col">
+            <h8>Locations</h8>
+            <a href="index.html"><img src="images/India.png"></a> 
+            <p3>India</p3>
+            <div class="header8-col">
+                <a href="index.html"><img src="images/Netherlands.png"></a> 
+                <p3>Netherlands</p3> 
+            </div>
+            <div class="header8-col">
+                <a href="index.html"><img src="images/UAE.png"></a> 
+                <p3>UAE</p3> 
+            </div>
+            <div class="header8-col">
+                <a href="index.html"><img src="images/USA.png"></a> 
+                <p3>USA</p3> 
+            </div>
+          </div>
+    </div>
+      <div class="header11" >
+        <div class="row3">
+            <div class="header12-col">
+        <img src="images/m1.png">
+            </div>
+
+            <div class="header12-col">
+                <img src="images/m2.png">
+                    </div>
+                    <div class="header12-col">
+                        <img src="images/m3.png">
+                            </div>
+                            <div class="header12-col">
+                                <img src="images/m4.png">
+                                    </div>
+                                    <div class="header12-col">
+                                        <img src="images/m5.png">
+                                            </div>
+    </div>
+        <p>Connect with us Socially!</p>
+      </div>
+</section>
+
+        
+        
+
+<!-------JavaScript for toggle menu-------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
